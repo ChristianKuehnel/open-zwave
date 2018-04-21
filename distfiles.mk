@@ -9,7 +9,9 @@ DISTFILES =	.gitignore \
 	config/2gig/ct100.xml \
 	config/2gig/ct101.xml \
 	config/2gig/ct30.xml \
+	config/2gig/ct32.xml \
 	config/2gig/ct50e.xml \
+	config/2gig/ct80.xml \
 	config/BeNext/1poleswitch.xml \
 	config/BeNext/2poleswitch.xml \
 	config/BeNext/AlarmSound.xml \
@@ -83,17 +85,24 @@ DISTFILES =	.gitignore \
 	config/aeotec/zw132.xml \
 	config/aeotec/zw139.xml \
 	config/aeotec/zw140.xml \
+	config/aeotec/zwa001.xml \
+	config/aeotec/zwa003.xml \
+	config/aeotec/zwa004.xml \
+	config/assa_abloy/ConexisL1.xml \
+	config/assa_abloy/KeyfreeConnected-plus.xml \
 	config/assa_abloy/KeyfreeConnected.xml \
 	config/assa_abloy/PushButtonDeadbolt.xml \
 	config/assa_abloy/PushButtonLever.xml \
 	config/assa_abloy/TouchDeadbolt.xml \
 	config/assa_abloy/TouchLever.xml \
 	config/assa_abloy/nexTouch.xml \
+	config/august/asl-03.xml \
 	config/cooper/RF9501.xml \
 	config/cooper/RF9505-T.xml \
 	config/cooper/RF9517.xml \
 	config/cooper/RF9540-N.xml \
 	config/cooper/RF9542-Z.xml \
+	config/cooper/RFWC5.xml \
 	config/danfoss/living.xml \
 	config/danfoss/rsroom.xml \
 	config/danfoss/z.xml \
@@ -150,6 +159,7 @@ DISTFILES =	.gitignore \
 	config/enerwave/zwn-bpc.xml \
 	config/enerwave/zwn-sc7.xml \
 	config/enerwave/zwnrsm1plus.xml \
+	config/enerwave/zwnrsm2plus.xml \
 	config/eurotronic/eur_cometz.xml \
 	config/eurotronic/eur_stellaz.xml \
 	config/everspring/ad146.xml \
@@ -166,6 +176,7 @@ DISTFILES =	.gitignore \
 	config/everspring/sm103.xml \
 	config/everspring/sp103.xml \
 	config/everspring/sp814.xml \
+	config/everspring/sp816.xml \
 	config/everspring/st812.xml \
 	config/everspring/st814.xml \
 	config/everspring/st815.xml \
@@ -203,6 +214,7 @@ DISTFILES =	.gitignore \
 	config/fibaro/fgs223.xml \
 	config/fibaro/fgsd002.xml \
 	config/fibaro/fgss101.xml \
+	config/fibaro/fgt001.xml \
 	config/fibaro/fgwpe.xml \
 	config/fibaro/fgwpfzw5.xml \
 	config/firstalert/zcombo.xml \
@@ -218,6 +230,7 @@ DISTFILES =	.gitignore \
 	config/ge/12719-plugin-switch.xml \
 	config/ge/12724-dimmer.xml \
 	config/ge/14282-plugin-switch.xml \
+	config/ge/14288-outlet.xml \
 	config/ge/14291-switch.xml \
 	config/ge/14292-toggle-switch.xml \
 	config/ge/14294-dimmer.xml \
@@ -229,15 +242,20 @@ DISTFILES =	.gitignore \
 	config/ge/hinge-pin.xml \
 	config/ge/receptacle.xml \
 	config/ge/relay.xml \
+	config/ge/ze26i.xml \
 	config/ge/zw4001-switch.xml \
+	config/ge/zw6302.xml \
 	config/gocontrol/GC-TBZ48L.xml \
 	config/gr/gr105.xml \
 	config/gr/gr105n.xml \
 	config/greenwave/powernode1.xml \
 	config/greenwave/powernode6.xml \
 	config/hank/hkzw-dws01.xml \
+	config/hank/hkzw-fld01.xml \
 	config/hank/hkzw-ms01.xml \
+	config/hank/hkzw-rgb01.xml \
 	config/hank/hkzw-so01-smartplug.xml \
+	config/hank/hkzw-so03.xml \
 	config/hank/hkzw-so05-smartplug.xml \
 	config/hank/scenecontroller1.xml \
 	config/hank/scenecontroller4.xml \
@@ -251,10 +269,13 @@ DISTFILES =	.gitignore \
 	config/heiman/HS2SK-Z.xml \
 	config/homeseer/ezmotionplus.xml \
 	config/homeseer/hs-wd100plus.xml \
+	config/homeseer/hs-wd200plus.xml \
 	config/homeseer/hs-ws100plus.xml \
+	config/homeseer/hs-ws200plus.xml \
 	config/homeseer/hsm100.xml \
 	config/homeseer/hsm200.xml \
 	config/homeseer/ztroller.xml \
+	config/honeywell/lynx-touch-l5100.xml \
 	config/honeywell/th8320zw1000.xml \
 	config/horstmann/asrzw.xml \
 	config/horstmann/hrt4zw.xml \
@@ -262,14 +283,19 @@ DISTFILES =	.gitignore \
 	config/horstmann/ses302.xml \
 	config/horstmann/ses303.xml \
 	config/horstmann/sir321.xml \
+	config/horstmann/srt321.xml \
 	config/horstmann/srt323.xml \
 	config/horstmann/ssr302.xml \
 	config/idlock/idlock101.xml \
 	config/ingersoll/dwzwave1.xml \
+	config/inovelli/nzw30.xml \
+	config/inovelli/nzw31.xml \
+	config/inovelli/nzw97.xml \
 	config/inovelli/simple_module.xml \
 	config/intermatic/ca8900.xml \
 	config/iris/rangeextender.xml \
 	config/kaipule/im20.xml \
+	config/kaipule/ix32.xml \
 	config/kwikset/smartcode.xml \
 	config/leviton/dz15s.xml \
 	config/leviton/dz6hd.xml \
@@ -287,8 +313,10 @@ DISTFILES =	.gitignore \
 	config/linear/WADWAZ-1.xml \
 	config/linear/WAPIRZ-1.xml \
 	config/linear/WD500Z-1.xml \
+	config/linear/WD500Z5-1.xml \
 	config/linear/WS15Z-1.xml \
 	config/linear/WT00Z-1.xml \
+	config/logicsoft/ZHC5002.xml \
 	config/logicsoft/ZHC5010.xml \
 	config/manufacturer_specific.xml \
 	config/manufacturer_specific.xsd \
@@ -312,10 +340,13 @@ DISTFILES =	.gitignore \
 	config/northq/nq9021.xml \
 	config/northq/nq9121.xml \
 	config/northq/nq92021.xml \
+	config/oomi/ft100.xml \
+	config/oomi/ft111.xml \
 	config/options.xml \
 	config/options.xsd \
 	config/philio/pan03.xml \
 	config/philio/pan04.xml \
+	config/philio/pan06.xml \
 	config/philio/pan07.xml \
 	config/philio/pan08.xml \
 	config/philio/pan11.xml \
@@ -389,13 +420,17 @@ DISTFILES =	.gitignore \
 	config/schlagelink/itemp.xml \
 	config/schlagelink/minikeypad.xml \
 	config/sensative/strips.xml \
+	config/sensative/stripscomfort.xml \
 	config/shenzen_neo/ls01ch.xml \
 	config/shenzen_neo/ls02ch.xml \
 	config/shenzen_neo/nas-ab01z.xml \
 	config/shenzen_neo/nas-ds01z.xml \
 	config/shenzen_neo/nas-pd01z.xml \
+	config/shenzen_neo/nas-rc01z.xml \
 	config/shenzen_neo/nas-wr01z.xml \
 	config/shenzen_neo/nas-ws02z.xml \
+	config/steinel/is140-2.xml \
+	config/steinel/rs-led-d2.xml \
 	config/stelpro/stzw402.xml \
 	config/swiid/swiidinter.xml \
 	config/swiid/swiidplug.xml \
@@ -413,6 +448,7 @@ DISTFILES =	.gitignore \
 	config/vision/zf5201.xml \
 	config/vision/zg8101.xml \
 	config/vision/zl7261.xml \
+	config/vision/zl7431.xml \
 	config/vision/zm1601eu.xml \
 	config/vision/zm1601eu5.xml \
 	config/vision/zm1602eu.xml \
@@ -431,6 +467,7 @@ DISTFILES =	.gitignore \
 	config/wenzhou/tz67.xml \
 	config/wenzhou/tz68.xml \
 	config/wenzhou/tz69.xml \
+	config/wenzhou/tz79.xml \
 	config/wenzhou/tz88.xml \
 	config/widom/UBS104.xml \
 	config/widom/UME304C_S.xml \
@@ -442,6 +479,7 @@ DISTFILES =	.gitignore \
 	config/zipato/zp3102.xml \
 	config/zooz/zen06.xml \
 	config/zooz/zen07.xml \
+	config/zooz/zen15.xml \
 	config/zooz/zen20.xml \
 	config/zooz/zen21.xml \
 	config/zooz/zen22.xml \
